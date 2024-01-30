@@ -13,7 +13,7 @@ public class HW_2 {
         System.out.println(a - b);
 //division
         System.out.print("Div: ");
-        System.out.println(a / b);
+        System.out.println(1.0 * a / b);
 //remainder
         System.out.print("Rem: ");
         System.out.println(a % b);
