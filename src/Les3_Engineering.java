@@ -4,18 +4,27 @@ public class Les3_Engineering {
         boolean itMoves = true;
         boolean shouldItMove = true;
 
-        if (itMoves) {
-            if (shouldItMove) {
-                System.out.println("It moves, No Problem");
-            } else {
-                System.out.println("Take a tape!");
-            }
+        if (itMoves && !shouldItMove) {
+            System.out.println("take a tape");
+        } else if (!itMoves && shouldItMove) {
+            System.out.println("take wd-40");
         } else {
-           if (shouldItMove) {
-                System.out.println("take wd-40!");
-           } else {
-               System.out.println("Isn't move, No problem!");
-           }
+            System.out.println("no problem");
+        }
+
+//Extended code:
+//        if (itMoves) {
+//            if (shouldItMove) {
+//                System.out.println("It moves, No Problem");
+//            } else {
+//                System.out.println("Take a tape!");
+//            }
+//        } else {
+//           if (shouldItMove) {
+//                System.out.println("take wd-40!");
+//           } else {
+//               System.out.println("Isn't move, No problem!");
+//           }
         }
 
 
@@ -31,4 +40,4 @@ public class Les3_Engineering {
 
 
     }
-}
+
