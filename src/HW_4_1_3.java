@@ -24,20 +24,16 @@ public class HW_4_1_3 {
 
 //        another ways???:
 
-//            int a = 40;
-//
-//            while (a % 4 == 0 && a <= 60) {
-//                System.out.println(a);
-//                a = a + 1;
-//            }
+            int a = 40;
+            int b = 60;
 
+            while (a <= b) {
+                if (a % 4 == 0) {
+                    System.out.println(a);
+                }
+                a = a + 1;
+            }
 
-//            int b = 40;
-//
-//            do {
-//                System.out.println(b);
-//                b = b + 1;
-//            } while (b % 4 == 0 && b <= 60);
 
         }
     }
