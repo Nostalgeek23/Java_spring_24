@@ -16,11 +16,13 @@ public class HW_4_1_3 {
                 System.out.println(i);
             }
         }
+        System.out.println("-------------------------------------");
 
 //        without if
         for (int i = 40; i <= 60; i = i + 4) {
                 System.out.println(i);
         }
+        System.out.println("-------------------------------------");
 
 //        another ways???:
 
