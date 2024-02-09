@@ -13,7 +13,6 @@ public class HW_4_2_3 {
 
         for (int i = 0; i < array.length; i = i + 1) {
             array[i] = array[i] + 15;
-            System.out.println(array[i]);
         }
 
         System.out.println(Arrays.toString(array));
