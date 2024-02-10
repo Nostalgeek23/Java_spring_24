@@ -87,6 +87,28 @@ public class HW_5_1 {
         System.out.println(sumarray5);
 
 
+//        Задача №6
+//
+//        Дан массив:
+//        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+//        необходимо вывести максимальное значение массива.
+
+
+        int[][] array6 = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+
+        int maxarray6 = Integer.MIN_VALUE;
+
+        for (int i = 0; i < array6.length; i++) {
+            for (int j = 0; j < array6[i].length; j++) {
+                if (array6[i][j] > maxarray6) {
+                    maxarray6 = array6[i][j];
+                }
+            }
+            System.out.println(maxarray6);
+        }
+
+
+
 
 
 
