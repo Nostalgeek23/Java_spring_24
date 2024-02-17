@@ -51,7 +51,8 @@ public class Employees {
         e8.salary = 1400;
 
 
-        System.out.println(Employee.isSameName(e5, e8));
+//        System.out.println(Employee.isSameName(e5, e8));
+        System.out.println(e5.isSameName(e8));
 
 
 

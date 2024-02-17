@@ -15,10 +15,14 @@ public class Employee {
     int salary;
 
 
-    public static boolean isSameName(Employee emp1, Employee emp2) {
-        if (emp1.name.equals(emp2.name)) {
-            return true;
-        } else {return false;}
+//    public static boolean isSameName(Employee emp1, Employee emp2) {
+//        if (emp1.name.equals(emp2.name)) {
+//            return true;
+//        } else {return false;}
+//    }
+
+    boolean isSameName(Employee otherEmployee) {
+        return name.equals(otherEmployee.name);
     }
 
 }
