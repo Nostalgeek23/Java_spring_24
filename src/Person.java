@@ -11,6 +11,13 @@ public class Person {
     int age;
     String sex;
 
+    Person (String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
+//    String getName;
     String getName() {
         String searchSex = sex.toLowerCase();
       String result = null;
