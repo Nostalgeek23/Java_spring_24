@@ -1,3 +1,9 @@
+
+
+import school.redrover.lecture9.employees.Person;
+import school.redrover.lecture9.employees.Work;
+import school.redrover.lecture9.users.User;
+
 public class Les8 {
 
     public static void main(String[] args) {
