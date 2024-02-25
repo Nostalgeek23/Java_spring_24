@@ -1,4 +1,4 @@
-package school.redrover.homework9;
+package school.redrover.homework9.months;
 
 //Задача №1
 //
