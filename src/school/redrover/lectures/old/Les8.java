@@ -1,4 +1,4 @@
-
+package school.redrover.lectures.old;
 
 import school.redrover.lecture9.employees.Person;
 import school.redrover.lecture9.employees.Work;

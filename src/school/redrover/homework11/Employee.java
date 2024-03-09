@@ -13,12 +13,12 @@ package school.redrover.homework11;
 
 public abstract class Employee {
     private String name;
-    private final double baseSalary = 2000;
+    private final static double BASE_SALARY = 2000;
     private double salary;
     private int numberOfSubordinates;
 
     protected double getBaseSalary() {
-        return baseSalary;
+        return BASE_SALARY;
     }
     protected String getName(){
         return name;
