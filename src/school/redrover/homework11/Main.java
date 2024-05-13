@@ -17,5 +17,7 @@ public class Main {
         d.setName("Don");
         d.setNumberOfSubordinates(7);
         System.out.println(d.getSalary());
+
+        String s = "1";
     }
 }
